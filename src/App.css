@@ -1,5 +1,10 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +40,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+#drum-machine {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#display {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.drum-pad {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
