@@ -31,7 +31,7 @@ function App() {
       src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"
     },
     {
-      keyCode: 83,
+      keyCode: 98,
       text: "S",
       src: "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"
     },
@@ -68,9 +68,9 @@ function App() {
       <div id='drum-machine'>
         <div id='display'>
           {arr.map(text =>
-            <div
-              key={text.src}
-              onClick={() => {
+            <div 
+              key={text.src} 
+              onClick={() => { 
                 playSound(text.text)
               }}
               className='drum-pad'
