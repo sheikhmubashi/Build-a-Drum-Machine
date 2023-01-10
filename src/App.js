@@ -8,7 +8,7 @@ function App() {
     document.addEventListener('keydown', (e) => {
       playSound(e.key.toUpperCase())
     })
-  }, [])
+  }, []) 
   const arr = [
     {
       keyCode: 81,
